@@ -1,0 +1,105 @@
+
+img {
+  border: solid lightgray 1px;
+  border-radius: 5px;
+  clear:both;
+}
+
+div {
+  clear: both;
+  margin: 10px;
+}
+
+ul li {
+  margin: 0 0 0 5px;
+  padding: 0 0 0 5px;
+  list-style-type: none;
+  display: inline-block;
+  clear: both;
+}
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+  font-weight: bold;
+}
+a:visited {
+  color:black;
+  font-weight: bold;
+}
+
+.image-number {
+  color: lightgray;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.image-number:before {
+  content:'#';
+}
+.image-caption {
+  margin: 3px 0 0 0;
+  float:right;
+}
+
+.image-footer {
+  width: 100%;
+  height: 30px;
+  margin: 0;
+}
+#triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 15px solid lightgray;
+  margin: 0;
+  float: right;
+  margin-top: -5px;
+}
+
+span {
+  color: darkslategray;
+  text-align: center;
+}
+
+.authors img {
+  max-height: 20px;
+  max-width: 20px;
+  display: inline-block;
+  clear: both;
+}
+
+.authors {
+  padding: 0;
+  display: inline-block;s
+}
+
+ul.authors {
+  float: right;
+}
+
+.authors li {
+  padding-top: 0;
+  margin_top: 0;
+}
+
+.octocat {
+  max-width: 32%;
+  margin: none;
+  clear: both;
+  border-bottom: solid 1px lightgray;
+}
+
+.octocat img {
+  width: 100%;
+  padding: 0;
+}
+
+.octodex {
+  margin: 0;
+  padding: 0;
+}
